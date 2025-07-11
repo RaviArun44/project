@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>CSE Department | Indus College</title>
+
+  <link rel="stylesheet" href="../dept.css">
+  <!-- QRCode JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="../dept.js" defer></script>
+</head>
+<body>
+  <header>
+    <a class="back" href="../indus.html">&larr; All Departments</a>
+    <h1>Computer Science & Engineering</h1>
+  </header>
+
+  <section id="qrSection">
+    <h2>Department QR Code</h2>
+    <div id="qrBox"></div>
+  </section>
+
+  <section>
+    <h2>Faculty Members</h2>
+    <ul class="faculty">
+      <li>
+        <button data-faculty="dr_kumar">Dr. A. Kumar (HoD)</button>
+        <div id="dr_kumar" class="details">
+          <p>PhD, IIT Madras – 18 years experience, AI & ML research.</p>
+          <p>Email: akumar@indus.edu</p>
+        </div>
+      </li>
+
+      <li>
+        <button data-faculty="ms_joshi">Ms. S. Joshi</button>
+        <div id="ms_joshi" class="details">
+          <p>MTech, NIT Trichy – Data Science & Web Tech.</p>
+          <p>Email: sjoshi@indus.edu</p>
+        </div>
+      </li>
+
+      <!-- Add more faculty here -->
+    </ul>
+  </section>
+
+  <footer>&copy; 2025 Indus College – CSE Department</footer>
+</body>
+</html>

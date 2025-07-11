@@ -1,0 +1,13 @@
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,Helvetica,sans-serif;background:#f4f7ff;color:#222}
+header{background:#004080;color:#fff;padding:1.2rem;text-align:center}
+main{max-width:600px;margin:2rem auto;padding:0 1rem;text-align:center}
+h2{margin-bottom:1rem;color:#004080}
+.dept-list{list-style:none;margin:auto}
+.dept-list li{margin:.6rem 0}
+.dept-list a{
+  display:inline-block;padding:.7rem 1.4rem;border-radius:6px;
+  background:#004080;color:#fff;text-decoration:none;min-width:120px
+}
+.dept-list a:hover{background:#003060}
+footer{margin-top:3rem;text-align:center;color:#555;font-size:.9rem}

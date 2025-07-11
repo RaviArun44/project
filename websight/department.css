@@ -1,0 +1,20 @@
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,Helvetica,sans-serif;background:#fafcff;color:#222}
+header{
+  background:#004080;color:#fff;padding:1rem 1.5rem;
+  display:flex;align-items:center;gap:.8rem;flex-wrap:wrap
+}
+header .back{color:#fff;text-decoration:none;font-size:.9rem}
+h1{font-size:1.6rem;margin:0}
+section{max-width:800px;margin:2rem auto;padding:0 1rem;text-align:center}
+section h2{color:#004080;margin-bottom:1rem}
+#qrBox{margin:1rem auto;width:200px;height:200px}
+.faculty{list-style:none;text-align:left;max-width:500px;margin:auto}
+.faculty li{margin:.8rem 0}
+.faculty button{
+  width:100%;text-align:left;padding:.6rem 1rem;border:1px solid #004080;
+  background:#f2f6ff;border-radius:6px;cursor:pointer;font-size:1rem
+}
+.faculty button:hover{background:#dfe8ff}
+.details{display:none;padding:1rem;border:1px solid #ccc;border-radius:6px;margin-top:.4rem;background:#fff}
+footer{margin:3rem 0 1rem;text-align:center;font-size:.85rem;color:#555}
